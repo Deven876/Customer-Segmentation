@@ -3,7 +3,7 @@
 
 
 
-Project Title : Extraction/identification of major topics & themes discussed in news articles.
+# **Project Title** : Extraction/identification of major topics & themes discussed in news articles.
 Problem Description
 In this project, your task is to identify major customer segments on a transnational data set which contains all the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail.The company mainly sells unique all-occasion gifts. Many customers of the company are wholesalers.
 Data Description
@@ -21,7 +21,7 @@ Data Preparation and Exploratory Data Analysis > Build Model using Multiple Tech
 
 
 
-Summary
+# **Summary**
 First imported the libraries and dataset which was in excel file and This dataset contains 541909 rows and 8 columns, then checked for duplication of data and null values.
 
 There were more than 120000 null values present in CustomerID Column it main column as other column was filled with zero and drop all values.
@@ -36,7 +36,7 @@ K-Means Clustering was applied,
 
 Dendrogram Linkage and Hierarchical Agglomerative Clustering Models are applied
 
-Conclusion
+# **Conclusion**
 Given Data for Customer Segmentation most of them are irrelevant like StockCode, Description.etc and there is no relation.
 After Applying Elbow and Silhouette score are more at cluster size =3 or 2
 Same results applied with Dendrogram results of Kmeans Clusters Centers in plots appears better than Hierarchical Agglomerative Clustering
