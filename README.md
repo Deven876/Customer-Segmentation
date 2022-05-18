@@ -37,7 +37,7 @@ There were more than 120000 null values present in CustomerID Column it main col
 
 Various plots are visualized to see Outliers and Applied Inter Quartile Range method.
 
-Data was used different units so its scaled using Standard Scaler and normalise data.
+Data pints were in different units so we scaled using Standard Scaler and normalized it.
 
 To find Number Clusters we applied Elbow Method and silhouette score the Selected Cluster Size with Visualized Graph.
 
